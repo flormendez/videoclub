@@ -9,15 +9,24 @@
             <input type="text" name="name" value="<%= data.name%>" placeholder="Name" class="form-control" autofocus>
           </div>
           <div class="form-group">
-            <input type="text" name="address" value="<%= data.address%>" placeholder="Address" class="form-control">
+            <input type="text" name="origin_country" value="<%= data.origin_country%>" placeholder="País de origen" class="form-control">
           </div>
           <div class="form-group">
-            <input type="text" name="phone" value="<%= data.phone%>" placeholder="Phone" class="form-control">
+            <input type="year" name="release_year" value="<%= data.release_year%>" placeholder="Año de estreno" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" name="release_year" value="<%= data.director%>" placeholder="Director" class="form-control">
+          </div>
+          <div class="form-group">
+            <input type="text" name="release_year" value="<%= data.cast%>" placeholder="Elenco" class="form-control">
           </div>
 
           <button type="submit" class="btn btn-primary">
-            save customer
+            Guardar pelíclua
           </button>
+          <button type="cancel" class="btn btn-primary">
+              Cancelar
+            </button>
         </form>
       </div>
     </div>
